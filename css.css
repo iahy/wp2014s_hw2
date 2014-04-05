@@ -15,6 +15,7 @@ h1{
 }
 .pic1{
 	text-align:center;	
+	weigh:;
 }
 h2{
 	font:bold 24px/0.8  '微軟正黑體',sans-serif;
@@ -30,33 +31,31 @@ h3{
 }
 h4{
 	font:bold 20px/1  '微軟正黑體',sans-serif;
-	margin:1.5em 1em;
+	margin:1em 1em;
 
 	color:#0000cd;
 }
 h5{
-	font:bold 15px/0.8  '微軟正黑體',sans-serif;
+	font:bold 15px/1  '微軟正黑體',sans-serif;
 	margin-left: 2em;
 	color:#0000cd;
 }
 h6, .content{
-	font:bold 15px/0.5  '微軟正黑體',sans-serif;
+	font:bold 15px/1  '微軟正黑體',sans-serif;
 	margin-left: 2em;
 	color:#4B60B6;
 }
-
-.content{
-	margin-left: 2em;}
-
-
-.list ul{
-	list-style-type: none;
- 	font:bold 15px/0.5  '微軟正黑體',sans-serif;
-	color:red;}
-div .contact{
-	font:bold 20em/0.5  '微軟正黑體',sans-serif;
-}
-div .bottom{
-	font:15em/0.5  '新細明體',sans-serif;
-	text-align:center;	
-	margin:2em;}
+ul{
+	list-style-type: square;
+ 	font:bold 15px  '微軟正黑體',sans-serif;
+	line-height: 180%;
+	color:#0000cd;}
+.contact{
+	font:bold 20px/0.5  '微軟正黑體',sans-serif;
+	font-style: italic;
+	margin-left: 10em;
+	color:black;}
+.bottom{
+	font:10px/0.5  '新細明體',sans-serif;
+	text-align:right;	
+	margin:3em 5em;}
