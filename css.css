@@ -4,18 +4,18 @@
 	text-align: left;
 }
 h1{
-	background-color:#3D62F5;
-	border-radius:3px;
+	background-color:#db7093;
+	border-radius:10px;
 	font:30px/0.3 '微軟正黑體',sans-serif;
 	color:#ffffff ;
 	text-align:center;	
 	padding:15px;
-	margin:15px;
+	margin:3px 15px;
 	text-shadow: rgb(255, 255, 255) 0px 1px 1px, rgba(0, 0, 0, 0.298039) 0px -1px 1px;;
 }
 .pic1{
 	text-align:center;	
-	weigh:;
+	width: 930px;
 }
 h2{
 	font:bold 24px/0.8  '微軟正黑體',sans-serif;
@@ -32,7 +32,6 @@ h3{
 h4{
 	font:bold 20px/1  '微軟正黑體',sans-serif;
 	margin:1em 1em;
-
 	color:#0000cd;
 }
 h5{
@@ -49,12 +48,14 @@ ul{
 	list-style-type: square;
  	font:bold 15px  '微軟正黑體',sans-serif;
 	line-height: 180%;
-	color:#0000cd;}
+	color:#0000cd;
+}
 .contact{
 	font:bold 20px/0.5  '微軟正黑體',sans-serif;
 	font-style: italic;
 	margin-left: 10em;
-	color:black;}
+	color:black;
+}
 .bottom{
 	font:10px/0.5  '新細明體',sans-serif;
 	text-align:right;	
