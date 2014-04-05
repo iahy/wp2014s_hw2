@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact me</title>
+</head>
+<style>
+	.table{
+	background:url(http://subtlepatterns.com/patterns/noisy_grid.png);
+	font:15px/2 '微軟正黑體',sans-serif;
+	text-align: left;
+	padding: 1em;
+	}
+	h1{
+	background-color:#f0f8ff;
+	border-radius:2.5px;
+	padding:0.1em 0.2em;
+	margin:0.1em 15em 0.5em 0em ;
+	font:30px #191970 '微軟正黑體',sans-serif;
+	text-shadow: rgb(255, 255, 255) 0px 1px 1px, rgba(0, 0, 0, 0.298039) 0px -1px 1px;;
+	}
+</style>
+<body class="table">
+	<h1>請與我連繫</h1>
+	<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDZ3dGNNLVFBTjR4bktTNGhQVEFfa3c6MA&amp;ifq" method="POST">
+		<label for="entry.0.single">學號:</label>		
+		<input type="hidden" name="entry.0.single" placeholder="學號" value="98102016" tabindex="1">
+        <br>
+		<label for="entry.1.group">性別:</label>
+		<input type="radio" name="entry.1.group" value="男" tabindex="2">男
+		<input type="radio" name="entry.1.group" value="女" id="radio-1" tabindex="3">女 
+        <br>
+		<label for="entry.2.group">最喜歡旅遊國家:</label><br>
+		<input type="checkbox" name="entry.2.group" value="Taiwan">臺灣<br>
+		<input type="checkbox" name="entry.2.group" value="Japan">日本<br>       
+		<input type="checkbox" name="entry.2.group" value="China">中國<br>
+		<input type="checkbox" name="entry.2.group" value="Turkey">土耳其<br>
+		<input type="checkbox" name="entry.2.group" value="Thai">泰國
+        <br>
+		<label for="entry.3.group">感情狀態:</label>
+		<select name=entry.3.group>
+			<option>單身
+			<option>穩定交往中
+			<option>已婚
+			<option>訂婚
+			<option>一言難盡
+		</select>
+        <br>
+		<label for="entry.4.group">E-mail:</label>
+		<input type="text" name="entry.4.group" size="20" placeholder="leo@gmail.com">
+		<br>
+		<label for="entry.5.single">意見回饋:</label>
+        <br>
+		<textarea name="entry.5.single" cols="70"rows="10"></textarea>
+		<br>
+		<input type="submit" value="繳交">		
+        <br>	
+	</form>
+</body>
+
+</html>

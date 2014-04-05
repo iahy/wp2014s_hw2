@@ -1,0 +1,62 @@
+.mine{
+	background:url(http://subtlepatterns.com/patterns/ricepaper_v3.png);
+	font:15px/2 '微軟正黑體',sans-serif;
+	text-align: left;
+}
+h1{
+	background-color:#3D62F5;
+	border-radius:3px;
+	font:30px/0.3 '微軟正黑體',sans-serif;
+	color:#ffffff ;
+	text-align:center;	
+	padding:15px;
+	margin:15px;
+	text-shadow: rgb(255, 255, 255) 0px 1px 1px, rgba(0, 0, 0, 0.298039) 0px -1px 1px;;
+}
+.pic1{
+	text-align:center;	
+}
+h2{
+	font:bold 24px/0.8  '微軟正黑體',sans-serif;
+}
+.I{
+  font:13px/0.6 '微軟正黑體', sans-serif;
+  color:rgb(56,56,56);
+}
+h3{
+	font:bold 24px/1.2  '微軟正黑體',sans-serif;
+	padding:3px;
+	color:#000080;
+}
+h4{
+	font:bold 20px/1  '微軟正黑體',sans-serif;
+	margin:1.5em 1em;
+
+	color:#0000cd;
+}
+h5{
+	font:bold 15px/0.8  '微軟正黑體',sans-serif;
+	margin-left: 2em;
+	color:#0000cd;
+}
+h6, .content{
+	font:bold 15px/0.5  '微軟正黑體',sans-serif;
+	margin-left: 2em;
+	color:#4B60B6;
+}
+
+.content{
+	margin-left: 2em;}
+
+
+.list ul{
+	list-style-type: none;
+ 	font:bold 15px/0.5  '微軟正黑體',sans-serif;
+	color:red;}
+div .contact{
+	font:bold 20em/0.5  '微軟正黑體',sans-serif;
+}
+div .bottom{
+	font:15em/0.5  '新細明體',sans-serif;
+	text-align:center;	
+	margin:2em;}
